@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-self: space-between;
+}
+
+.logo {
+    
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: rebeccapurple;
+    display: flex;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  
