@@ -1,17 +1,23 @@
 .header {
     display: flex;
-    justify-self: space-between;
+    flex: 0 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .logo {
-    
+    color: #F9FaF8;
+    font-size: 24px;
 }
 
 a {
     /* this removes the line under our links */
     text-decoration: none;
-    color: rebeccapurple;
+    color: #E5E7EB;
     display: flex;
+    font-size: 18px;
   }
   
   ul {
@@ -20,3 +26,8 @@ a {
     gap: 10px;
   }
   
+  .body1 {
+    color: #1f2937;
+    padding-bottom: 15px;
+
+  }
