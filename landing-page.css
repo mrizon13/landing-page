@@ -1,15 +1,46 @@
-.header {
+.main-header {
+    background-color: #1F2937;
+
+}
+.header1 {
     display: flex;
     flex: 0 1;
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
+    font-family: sans-serif;
 }
 
 .logo {
     color: #F9FaF8;
     font-size: 24px;
+    font-weight: 800px;
+}
+
+.subheader {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FaF8;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 {
+    color: white;
+    background-color: #3882F6;
 }
 
 a {
